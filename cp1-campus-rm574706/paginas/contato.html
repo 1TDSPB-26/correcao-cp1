@@ -13,18 +13,31 @@
        <nav>
          <ul>
             <li><a href="../index.html">Início</a></li>
-            <li><a href="./atividades.html">Atividade</a></li>
+            <li><a href="./atividade.html">Atividade</a></li>
             
          </ul> 
        </nav> 
      </header>
      <main>
        <section>
-          <h2>Conteúdo</h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, 
-            nisl vel tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc 
-            vel nisl. Sed euismod, nisl vel tincidunt lacinia, nunc nisl aliquam nunc, 
-            eget aliquam nisl nunc vel nisl.</p>
+          <form>
+                <fieldset>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <textarea name="msg" id="msg" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
        </section>
 
 
